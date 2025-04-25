@@ -8,3 +8,8 @@
     --color-primary: rgb(29,155,240);
     --color-secondary: rgb(24,24,24);
 }
+/*body {*/
+/*    transform: scale(0.90);*/
+/*    transform-origin: top center; !* so it scales from the top center *!*/
+
+/*}*/
