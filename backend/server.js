@@ -23,7 +23,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
-app.use(express.json()); // Parse JSON requests
+app.use(express.json({ limit: "5mb" }));
 app.use(express.urlencoded({ extended: true })); // to parse form data
 app.use(cookieParser());
 
